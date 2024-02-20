@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "Outfit";
+  /* font-weight: 100; */
+  background-color: hsl(30, 54%, 90%);
+}
+
+body h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: normal;
+}
+
+body p,
+li,
+td {
+  font-size: 16px;
+  color: hsl(30, 2%, 44%);
+}
+
+main {
+  background-color: white;
+  margin-top: 7%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 2.5em;
+  border-radius: 2em;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+li {
+  margin: 1rem 0px;
+}
+
+hr {
+  opacity: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.highlight {
+  color: hsl(24, 5%, 18%);
+  font-weight: 800;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1% 2em;
+  border-radius: 1em;
+}
+
+.prep-time h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+
+.attribution {
+  margin-top: 1em;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
